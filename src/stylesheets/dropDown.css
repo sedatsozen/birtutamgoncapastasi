@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+.main-frame{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #f4f1ec;
+    z-index: 1;
+    position: absolute;
+    justify-content: center;
+    animation: open 0.4s ease; 
+}
+
+ @keyframes open{
+    0%{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.dropdown-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Raleway",  sans-serif;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+.dropdown-item:hover{
+    color: grey;
+}
+
+
+
+
+
+
+
+

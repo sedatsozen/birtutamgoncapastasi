@@ -1,0 +1,40 @@
+.top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox-container{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+}
+
+.logo{
+    color: black;
+}
+
+.bars{
+    padding-left: 20px;
+    color: grey;
+    transition: all 0.7s ease;
+}
+
+.bars:hover{
+    transform: scale(1.1);
+    color: black;
+}
+
+.fa-shopping-bag{
+    padding-right: 20px;
+    color: grey;
+    transition: all 0.7s ease;
+}
+
+.fa-shopping-bag:hover{
+    transform: scale(1.1);
+    color: black;
+}
